@@ -9,6 +9,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-        - uses: actions/checkout@v4
-      - run: cat index.js
-      - run: npx pkg-pr-new publish
+    - uses: actions/checkout@v4
+  - run: cat index.js
+  - run: npx pkg-pr-new publish
